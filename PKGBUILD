@@ -15,7 +15,7 @@ package() {
 cd "$srcdir/chrooted-$pkgver"
 
 ./build.sh
-cd usr/
+cd chrooted-bin/usr/
 install -Dm755 bin/chrooted -t "$pkgdir/usr/bin"
 cd share/chrooted/
 install -Dm755 scripts/create \
@@ -24,6 +24,10 @@ install -Dm755 scripts/create \
 	scripts/list \
 	scripts/remove \
 	scripts/rename \
+	scripts/backup \
+	scripts/bclist \
+	scripts/restore \
+	scripts/bcremove \
 	scripts/start  -t "$pkgdir/usr/share/chrooted/scripts/"
 install -Dm755 bin/chroot -t "$pkgdir/usr/share/chrooted/bin/"
 }

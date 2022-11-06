@@ -1,13 +1,13 @@
 # Maintainer: Novus <novusoh01@outlook.com>
 
 pkgname=chrooted
-pkgver=1.0
+pkgver=1.1
 pkgrel=1
 pkgdesc='An easy to use tool where you can install other Linux distros on top of your current and chroot into them. '
 arch=('any')
 url='https://github.com/novusthedev/chrooted'
 license=('MIT')
-depends=('bash' 'wget' )
+depends=('bash' 'wget' 'squashfs-tools')
 source=("$url/archive/$pkgver.tar.gz")
 sha512sums=('SKIP')
 

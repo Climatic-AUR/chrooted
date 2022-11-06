@@ -7,7 +7,7 @@ pkgdesc='An easy to use tool where you can install other Linux distros on top of
 arch=('any')
 url='https://github.com/novusthedev/chrooted'
 license=('MIT')
-depends=('bash' 'wget' )
+depends=('bash' 'wget' 'squashfs-tools')
 source=("$url/archive/$pkgver.tar.gz")
 sha512sums=('SKIP')
 

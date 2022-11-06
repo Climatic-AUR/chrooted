@@ -1,7 +1,7 @@
 # Maintainer: Novus <novusoh01@outlook.com>
 
 pkgname=chrooted
-pkgver=1.1.1
+pkgver=1.2
 pkgrel=1
 pkgdesc='An easy to use tool where you can install other Linux distros on top of your current and chroot into them. '
 arch=('any')
